@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+/*.navbar-nav a{*/
+/*  font-size: 18px;*/
+/*}*/
+
+/*.App{*/
+/*  text-align: center;*/
+/*}*/
+
+
+.timeline-cells-cell{
+    display: inline-flex;
+    flex-direction: column;
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgba(0 ,0, 0, 0.1);
+    margin: 2px;
+    border-radius: 2px;
+    background-color: rgba(0 ,0 ,0 ,0.05);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timeline-cells-cell:hover{
+    border: 1px solid black;
+    /*background-color: #ddd;*/
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.timeline-cells{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timeline-body{
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.timeline-weeks-week{
+  font-size: 13px;
+   height: 12px;
+    /*width :17px;*/
+    border: 1px solid transparent;
+    margin: 3px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timeline-weekdays{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.timeline-months{
+    display: flex;
+    padding-left: 35px;
+}
+
+.timeline-months-month{
+    width: 15px;
+    margin: 2px;
+    border: 1px solid transparent;
+    font-size: 10px;
+}
+.Sep~.Sep
+,.Oct~.Oct
+,.Nov~.Nov
+,.Dec~.Dec
+,.Jan~.Jan
+,.Feb~.Feb
+,.Mar~.Mar
+,.Apr~.Apr
+, .May~.May
+,.Jun~.Jun
+,.Jul~.Jul
+,.Aug~.Aug
+{
+        visibility : hidden;
 }
